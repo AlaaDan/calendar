@@ -16,7 +16,9 @@ header{
     height: 70px;
     background-color: red; 
     display: flex;
+    align-items: center;
     justify-content: center;
+    justify-content: space-between;
     
 }
 
@@ -77,4 +79,10 @@ h1{
     justify-self: center;
     border-style: none;
 
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px;
 }
