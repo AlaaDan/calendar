@@ -1,0 +1,80 @@
+body{
+    background-color: bisque;
+    
+    
+}
+
+.wrapper{
+    height: 500px;
+    width: 800px;
+    background-color: white;
+
+}
+
+header{
+    width: 800px;
+    height: 70px;
+    background-color: red; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+ol, ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.days{
+    background-color: #DFDFDE;
+    grid-auto-rows: 40px;
+    margin: 0;
+}
+.numbers{
+    grid-auto-rows: 78px;
+    margin: 0;
+    
+    
+}
+li{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    
+}
+
+h1{
+    color: white;
+    
+}
+
+.weekend{
+    background-color: #EEF1FF;
+}
+.not_in_month{
+    color: lightgray;
+}
+
+.today{
+    border: 0;
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: red;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border-style: none;
+
+}
